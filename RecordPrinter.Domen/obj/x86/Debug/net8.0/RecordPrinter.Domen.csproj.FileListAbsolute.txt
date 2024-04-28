@@ -1,0 +1,14 @@
+C:\Users\Денис\source\repos\RecordPrinter\RecordPrinter.Domen\bin\x86\Debug\net8.0\RecordPrinter.Domen.deps.json
+C:\Users\Денис\source\repos\RecordPrinter\RecordPrinter.Domen\bin\x86\Debug\net8.0\RecordPrinter.Domen.runtimeconfig.json
+C:\Users\Денис\source\repos\RecordPrinter\RecordPrinter.Domen\bin\x86\Debug\net8.0\RecordPrinter.Domen.dll
+C:\Users\Денис\source\repos\RecordPrinter\RecordPrinter.Domen\bin\x86\Debug\net8.0\RecordPrinter.Domen.pdb
+C:\Users\Денис\source\repos\RecordPrinter\RecordPrinter.Domen\obj\x86\Debug\net8.0\RecordPrinter.Domen.csproj.AssemblyReference.cache
+C:\Users\Денис\source\repos\RecordPrinter\RecordPrinter.Domen\obj\x86\Debug\net8.0\RecordPrinter.Domen.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Денис\source\repos\RecordPrinter\RecordPrinter.Domen\obj\x86\Debug\net8.0\RecordPrinter.Domen.AssemblyInfoInputs.cache
+C:\Users\Денис\source\repos\RecordPrinter\RecordPrinter.Domen\obj\x86\Debug\net8.0\RecordPrinter.Domen.AssemblyInfo.cs
+C:\Users\Денис\source\repos\RecordPrinter\RecordPrinter.Domen\obj\x86\Debug\net8.0\RecordPrinter.Domen.csproj.CoreCompileInputs.cache
+C:\Users\Денис\source\repos\RecordPrinter\RecordPrinter.Domen\obj\x86\Debug\net8.0\RecordPrinter.Domen.dll
+C:\Users\Денис\source\repos\RecordPrinter\RecordPrinter.Domen\obj\x86\Debug\net8.0\refint\RecordPrinter.Domen.dll
+C:\Users\Денис\source\repos\RecordPrinter\RecordPrinter.Domen\obj\x86\Debug\net8.0\RecordPrinter.Domen.pdb
+C:\Users\Денис\source\repos\RecordPrinter\RecordPrinter.Domen\obj\x86\Debug\net8.0\RecordPrinter.Domen.genruntimeconfig.cache
+C:\Users\Денис\source\repos\RecordPrinter\RecordPrinter.Domen\obj\x86\Debug\net8.0\ref\RecordPrinter.Domen.dll

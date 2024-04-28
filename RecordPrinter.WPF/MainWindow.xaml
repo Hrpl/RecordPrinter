@@ -1,0 +1,71 @@
+﻿<Window x:Class="RecordPrinter.WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RecordPrinter.WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" ></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <StackPanel Grid.Row="0" Panel.ZIndex="-1" Background="Blue"></StackPanel>
+        
+        <StackPanel Name="Menu" Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center" Width="Auto" >
+            <Button Margin="10" Padding="3" Name="ViewPrinter" Background="White"  Click="ViewPrinter_Click">Просмотреть устройства</Button>
+            <Button Margin="10" Padding="3" Name="ViewRewuest" Background="White" Click="ViewRequest_Click">Просмотреть заявок</Button>
+            <Button Margin="10" Padding="3" Name="CreateNewRequest"  Background="White" Click="CreateNewRequest_Click">Создать заявку</Button>
+            <Button Margin="10" Padding="3" Name="CreateNewActRealize" Background="White" Click="CreateNewActRealzie_Click">Акт о выполнении</Button>
+        </StackPanel>
+        
+        <StackPanel x:Name="PrinterBlock"  Grid.Row="1" Visibility="Collapsed">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <TextBlock Margin="10">Поиск</TextBlock>
+                <TextBox Width="150" Name="SearchPrinter" Margin="10" TextChanged="searchPrinters_TextChanged"></TextBox>
+                <Button Click="CleanSearch" Margin="10" Background="White" Padding="3">Очистить поиск</Button>
+            </StackPanel>
+            
+            <DataGrid Grid.Row="1" Name="dataGrid" HorizontalAlignment="Center"/>
+            <Button x:Name="btnExport" Content="Экспорт в Excel" Click="btnExport_Click" Padding="3" Margin="10" Background="White" Grid.Row="3" Width="100"  />
+
+        </StackPanel>
+
+        <StackPanel x:Name="RequestBlock"  Grid.Row="1" Visibility="Collapsed" HorizontalAlignment="Center">
+            <StackPanel Orientation="Horizontal"> 
+                <TextBlock Text="Фильтр" Margin="10" Height="20" Width="50" TextAlignment="Right"/>
+                <ComboBox Margin="1" Name="filterRequest" Height="20" Width="150"     
+                    SelectionChanged="filterRequest_SelectionChanged"/>
+            </StackPanel>
+
+            <DataGrid Grid.Row="1" Name="requestGrid" HorizontalAlignment="Center"/>
+
+        </StackPanel>
+
+        <StackPanel x:Name="CreateRequestForm" Grid.Row="1" Visibility="Collapsed" HorizontalAlignment="Center" >
+            <TextBlock Margin="5" FontSize="16">Принтер</TextBlock>
+            <ComboBox Name="AllPrinter" Width="300" Margin="5" ItemsSource="{Binding Model}"></ComboBox>
+
+            <TextBlock Margin="5" FontSize="16">Проблема</TextBlock>
+            <TextBox Width="300" Margin="5" Name="ProblemText"/>
+
+            <Button Click="CreateRequestButton" FontSize="16" Width="120" Margin="5">Создать</Button>
+        </StackPanel>
+
+        <StackPanel x:Name="CreateRealizeRequesForm"  Grid.Row="1" Visibility="Collapsed" HorizontalAlignment="Center" >
+            <TextBlock  Margin="5" FontSize="16">Номер заявки</TextBlock>
+            <TextBox Width="300" Margin="5"  Name="NumberRequest"></TextBox>
+            <TextBlock  Margin="5" FontSize="16">Мастер</TextBlock>
+            <ComboBox Width="300" Margin="5"  Name="AllMaster" ItemsSource="{Binding Name}"></ComboBox>
+
+            <Button Click="CreateActRealizeButton" FontSize="16" Width="120" Margin="5">Создать</Button>
+        </StackPanel>
+
+        <DockPanel  Grid.Row="2" HorizontalAlignment="Center">
+            <TextBlock DockPanel.Dock="Bottom" FontSize="14">Сделано в 2024</TextBlock>
+        </DockPanel>
+    </Grid>
+</Window>

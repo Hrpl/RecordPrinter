@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34701.34
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecordPrinter.WPF", "RecordPrinter.WPF\RecordPrinter.WPF.csproj", "{E1A8945A-B56A-4433-8BD2-4F67F23F6010}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RecordPrinter.Domen", "RecordPrinter.Domen\RecordPrinter.Domen.csproj", "{2BDC8EAE-BBF2-449F-8E41-882BC47B2146}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E1A8945A-B56A-4433-8BD2-4F67F23F6010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1A8945A-B56A-4433-8BD2-4F67F23F6010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1A8945A-B56A-4433-8BD2-4F67F23F6010}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E1A8945A-B56A-4433-8BD2-4F67F23F6010}.Debug|x86.Build.0 = Debug|Any CPU
+		{E1A8945A-B56A-4433-8BD2-4F67F23F6010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1A8945A-B56A-4433-8BD2-4F67F23F6010}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1A8945A-B56A-4433-8BD2-4F67F23F6010}.Release|x86.ActiveCfg = Release|Any CPU
+		{E1A8945A-B56A-4433-8BD2-4F67F23F6010}.Release|x86.Build.0 = Release|Any CPU
+		{2BDC8EAE-BBF2-449F-8E41-882BC47B2146}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BDC8EAE-BBF2-449F-8E41-882BC47B2146}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BDC8EAE-BBF2-449F-8E41-882BC47B2146}.Debug|x86.ActiveCfg = Debug|x86
+		{2BDC8EAE-BBF2-449F-8E41-882BC47B2146}.Debug|x86.Build.0 = Debug|x86
+		{2BDC8EAE-BBF2-449F-8E41-882BC47B2146}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BDC8EAE-BBF2-449F-8E41-882BC47B2146}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BDC8EAE-BBF2-449F-8E41-882BC47B2146}.Release|x86.ActiveCfg = Release|x86
+		{2BDC8EAE-BBF2-449F-8E41-882BC47B2146}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5241B876-8827-4C84-84A9-8984AAF4996C}
+	EndGlobalSection
+EndGlobal
