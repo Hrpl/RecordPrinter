@@ -155,3 +155,4 @@ C:\Users\Денис\source\repos\RecordPrinter\RecordPrinter.WPF\bin\Debug\net8.
 C:\Users\Денис\source\repos\RecordPrinter\RecordPrinter.WPF\bin\Debug\net8.0-windows\Microsoft.Office.Interop.Excel.dll
 C:\Users\Денис\source\repos\RecordPrinter\RecordPrinter.WPF\obj\Debug\net8.0-windows\Interop.Microsoft.Office.Interop.Word.dll
 C:\Users\Денис\source\repos\RecordPrinter\RecordPrinter.WPF\obj\Debug\net8.0-windows\RecordPrinter.WPF.csproj.ResolveComReference.cache
+C:\Users\Денис\source\repos\RecordPrinter\RecordPrinter.WPF\obj\Debug\net8.0-windows\RecordPrinter.WPF.sourcelink.json

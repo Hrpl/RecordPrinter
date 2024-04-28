@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\\u0414\u0435\u043D\u0438\u0441\\source\\repos\\RecordPrinter\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E1A8945A-B56A-4433-8BD2-4F67F23F6010}|RecordPrinter.WPF\\RecordPrinter.WPF.csproj|c:\\users\\\u0434\u0435\u043D\u0438\u0441\\source\\repos\\recordprinter\\recordprinter.wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E1A8945A-B56A-4433-8BD2-4F67F23F6010}|RecordPrinter.WPF\\RecordPrinter.WPF.csproj|solutionrelative:recordprinter.wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{E1A8945A-B56A-4433-8BD2-4F67F23F6010}|RecordPrinter.WPF\\RecordPrinter.WPF.csproj|c:\\users\\\u0434\u0435\u043D\u0438\u0441\\source\\repos\\recordprinter\\recordprinter.wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E1A8945A-B56A-4433-8BD2-4F67F23F6010}|RecordPrinter.WPF\\RecordPrinter.WPF.csproj|solutionrelative:recordprinter.wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1A8945A-B56A-4433-8BD2-4F67F23F6010}|RecordPrinter.WPF\\RecordPrinter.WPF.csproj|c:\\users\\\u0434\u0435\u043D\u0438\u0441\\source\\repos\\recordprinter\\recordprinter.wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E1A8945A-B56A-4433-8BD2-4F67F23F6010}|RecordPrinter.WPF\\RecordPrinter.WPF.csproj|solutionrelative:recordprinter.wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/RecordPrinter/True/SqlTable/dbo.Requests.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
@@ -37,7 +37,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 248,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 12,
           "Children": [
             {
               "$type": "Bookmark",
@@ -85,8 +85,7 @@
               "RelativeToolTip": "RecordPrinter.Domen\\RecordPrinterDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T10:17:56.947Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T10:17:56.947Z"
             },
             {
               "$type": "Document",
@@ -98,8 +97,7 @@
               "RelativeToolTip": "RecordPrinter.Domen\\Models\\ActRealize.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-28T09:52:09.276Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T09:52:09.276Z"
             },
             {
               "$type": "Document",
@@ -108,25 +106,24 @@
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/RecordPrinter/True/SqlTable/dbo.Requests.sql",
               "ToolTip": "dbo.Requests [\u0414\u0430\u043D\u043D\u044B\u0435]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-04-28T09:36:50.919Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-28T09:36:50.919Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\\u0414\u0435\u043D\u0438\u0441\\source\\repos\\RecordPrinter\\RecordPrinter.WPF\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "RecordPrinter.WPF\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\\u0414\u0435\u043D\u0438\u0441\\source\\repos\\RecordPrinter\\RecordPrinter.WPF\\MainWindow.xaml.cs",
-              "RelativeToolTip": "RecordPrinter.WPF\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAwwEwAAAA1AAAA",
+              "ToolTip": "C:\\Users\\\u0414\u0435\u043D\u0438\u0441\\source\\repos\\RecordPrinter\\RecordPrinter.WPF\\MainWindow.xaml.cs*",
+              "RelativeToolTip": "RecordPrinter.WPF\\MainWindow.xaml.cs*",
+              "ViewState": "AQIAABoAAAAAAAAAAAAxwGEAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-14T20:30:53.441Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\\u0414\u0435\u043D\u0438\u0441\\source\\repos\\RecordPrinter\\RecordPrinter.WPF\\MainWindow.xaml",
               "RelativeDocumentMoniker": "RecordPrinter.WPF\\MainWindow.xaml",

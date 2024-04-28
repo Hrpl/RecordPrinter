@@ -267,7 +267,7 @@ internal class DataPrinter
 
 }
 
-internal class DataRequest : Request
+internal class DataRequest
 {
     public int Id { get; set; }
     public int PrinterId { get; set; }

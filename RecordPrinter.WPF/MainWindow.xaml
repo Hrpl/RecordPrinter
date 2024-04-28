@@ -17,7 +17,7 @@
         
         <StackPanel Name="Menu" Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center" Width="Auto" >
             <Button Margin="10" Padding="3" Name="ViewPrinter" Background="White"  Click="ViewPrinter_Click">Просмотреть устройства</Button>
-            <Button Margin="10" Padding="3" Name="ViewRewuest" Background="White" Click="ViewRequest_Click">Просмотреть заявок</Button>
+            <Button Margin="10" Padding="3" Name="ViewRewuest" Background="White" Click="ViewRequest_Click">Просмотр заявок</Button>
             <Button Margin="10" Padding="3" Name="CreateNewRequest"  Background="White" Click="CreateNewRequest_Click">Создать заявку</Button>
             <Button Margin="10" Padding="3" Name="CreateNewActRealize" Background="White" Click="CreateNewActRealzie_Click">Акт о выполнении</Button>
         </StackPanel>
